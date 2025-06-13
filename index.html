@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">A Propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bonjour, je suis <span>Kabala Amuri Jonathan</span></h1>
+                <h2>Développeur Web</h2>
+                <a href="#projects" class="btn">Voir mes projets</a>
+            </div>
+            <div class="hero-image">
+                <img src="profil.jfif" alt="Photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">A Propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Je suis étudiant en 2ème année de Sciences Informatiques à l'Université Nouveaux Horizons de Lubumbashi. J'aime apprendre de nouvelles technologies et partager mes connaissances.</p>
+                    <p>Développeur web passionné par la création de sites et applications, je combine mes connaissances académiques avec des projets pratiques pour créer des solutions numériques.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Nom :</span> Kabala Amuri Jonathan
+                        </div>
+                        <div class="info-item">
+                            <span>Email :</span> jonathanamuri87@gmail.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="Logo.usafico.png" alt="Logo de mon site web">
+                    <div class="portfolio-overlay">
+                        <h3>Mon Site Web</h3>
+                        <p>USAFICO est une application web dédiée à la gestion des déchets et à l'assainissement urbain</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <p>© 2025 Portfolio. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
